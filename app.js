@@ -86,7 +86,7 @@ function storeTaskInLocalStorage(task){
 function removeTask(e){
 	if(e.target.classList.contains('fas')){
 		
-		if(confirm('¿Estas suguro?')){
+		if(confirm('¿Estas seguro?')){
 		e.target.parentElement.parentElement.remove();
 			}
 	 	
